@@ -24,5 +24,10 @@ COMPTE_C_XOR_HEX = 54045e514702100c585006
 
 XOR. Byte après byte. Ta clé MD5, répétée.
 Le résultat est un nom. Ce nom est un compte GitHub.
-Format : [nom].github.io, tu connais la suite.
-FF
+
+L'URL finale suit ce format exact :
+https://[nom].github.io/memoire.html#[ton_MD5]
+
+Le fragment après # — c'est ton empreinte. Celle que tu viens de calculer.
+La page la reconnaîtra. Ou pas.
+— FF
